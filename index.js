@@ -5,7 +5,10 @@ const express = require("express");
 const app = express();
 const path = require("path");
 app.get("/", (req, res) => {
-  res.send("W.I.P")
+  res.sendFile(path.join(__dirname+"/Website/index.html"));
+});
+app.get("/learnmore", (req, res) => {
+  res.sendFile(path.join(__dirname+"/Website/learnmore.html"));
 });
 app.listen(3000)
 client.on("ready", () => {
