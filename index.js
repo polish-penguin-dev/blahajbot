@@ -16,7 +16,7 @@ client.on("messageCreate", async message => {
      const blahajembed = new Discord.MessageEmbed()
      .setTitle("BLÅHAJ!💗")
      .setColor("PURPLE")
-     .setDescription("I am blahaj! You can hug me (!hug), do the funni (!meme) more stuff will be added soon ecksdee")
+     .setDescription("I am blahaj! You can hug me (!hug), do the funni (!meme), nerd poop (!contribute) more stuff will be added soon ecksdee")
      .setFooter("BLÅHAJ MY BELOVED💖!")
      .setImage("https://www.ikea.com/us/en/images/products/blahaj-soft-toy-shark__0710175_pe727378_s5.jpg")
      message.reply({embeds: [blahajembed]})

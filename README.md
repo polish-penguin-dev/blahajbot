@@ -1,3 +1,4 @@
-# Welcome to Node 16!
+# blahaj bot
+blahaj
 
-This template provides an easy way to use NodeJS v16 on Replit! As of writing, NodeJS repls have Node v12, which is several years out of date.
+### PLEASE HELP AND CONTRIBUTE! 🤪
