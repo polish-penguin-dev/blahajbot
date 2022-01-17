@@ -19,7 +19,7 @@ client.on("messageCreate", async message => {
      const blahajembed = new Discord.MessageEmbed()
      .setTitle("BLÅHAJ!💗")
      .setColor("PURPLE")
-     .setDescription("I am blahaj! You can hug me (!hug), do the funni (!meme), contributing for nerds (!contribute) more stuff will be added soon ecksdee")
+     .setDescription("I am blahaj! You can hug me (!hug), make me say a funny meme (!meme), contribute (!contribute). More commands will be added soon!")
      .setFooter("BLÅHAJ MY BELOVED💖!")
      .setImage("https://www.ikea.com/us/en/images/products/blahaj-soft-toy-shark__0710175_pe727378_s5.jpg")
      message.reply({embeds: [blahajembed]})
@@ -52,5 +52,6 @@ client.on("messageCreate", async message => {
     .setColor("BLUE")
     message.reply({embeds: [contributeembed]})
   };
+
 });
 client.login(process.env.token);
