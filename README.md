@@ -1,4 +1,4 @@
 # blahaj bot
 blahaj
 
-### PLEASE HELP AND CONTRIBUTE! 🤪
+### PLEASE HELP AND CONTRIBUTE! 🦈
